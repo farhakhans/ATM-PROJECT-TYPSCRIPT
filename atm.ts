@@ -82,11 +82,11 @@ async function main() {
             break;
             case "cnicNumber ":
                 case "cnicNumber":
-                    let  cnic  = await inquirer.prompt({
+                    let  cnic  = await inquirer.prompt([{
                         name: "cnic",
                         message: "Enter your CNIC number:",
                         type: "input"
-                    });
+                    }]);
                     console.log("your CNIC NUMBER:", cnic);
                   
                     
