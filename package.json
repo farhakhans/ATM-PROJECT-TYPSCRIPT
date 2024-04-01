@@ -2,7 +2,7 @@
   "name": "atm-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "atm.js",
   "type": "module",
   
   "scripts": {
